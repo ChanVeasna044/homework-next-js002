@@ -2,7 +2,7 @@
 import Footer from '@/components/footer'
 import './globals.css'
 import Navbar from '@/components/navbar'
-import SlideShow from '@/components/slideShow'
+
 import { SCRIPT } from '@/util/constant'
 
 export const metadata = {

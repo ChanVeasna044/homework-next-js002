@@ -3,7 +3,8 @@ import Link from "next/link";
 
 export default function ProductCard({ title, image, price, id, description }) {
   return (
-    <main>
+    <main >
+      <div >
       <div class="mx-auto h-96 mt-11 w-80 transform overflow-hidden rounded-lg bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg">
         <img
           class="h-52 w-full object-cover object-center"
@@ -32,6 +33,7 @@ export default function ProductCard({ title, image, price, id, description }) {
             </Link>
           </div>
         </div>
+      </div>
       </div>
     </main>
   );

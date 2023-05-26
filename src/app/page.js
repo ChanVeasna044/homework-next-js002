@@ -20,7 +20,7 @@ export default async function Home() {
 
   return (
     <>
-      <main className="grid grid-cols-3 gap-4">
+      <main className="grid grid-cols-3 gap-4 mt-10">
         <div className="flex gap-3 w-full  justify-center col-span-4 min-h-min  flex-wrap ps-10 p-2">
           {products.map((product, index) => (
             <ProductCard
